@@ -27,6 +27,12 @@ class _TextViewState extends State<TextView> {
         onPlatformViewCreated: _onPlatformViewCreated,
       );
     }
+    if (defaultTargetPlatform == TargetPlatform.iOS) {
+      return UiKitView(
+        viewType: 'TextViewPlugin',
+        onPlatformViewCreated: _onPlatformViewCreated,
+      );
+    }
     return Text(
         '$defaultTargetPlatform is not yet supported by the text_view plugin');
   }

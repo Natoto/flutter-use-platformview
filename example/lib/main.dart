@@ -11,7 +11,7 @@ class TextViewExample extends StatelessWidget {
         body: Column(children: [
           Center(
               child: Container(
-                  padding: EdgeInsets.symmetric(vertical: 30.0),
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
                   width: 130.0,
                   height: 100.0,
                   child: TextView(
@@ -21,7 +21,7 @@ class TextViewExample extends StatelessWidget {
               flex: 3,
               child: Container(
                   color: Colors.blue[100],
-                  child: Center(child: Text("Hello from Flutter!"))))
+                  child: Center(child: Text("Hello from 0000 Flutter!"))))
         ]));
   }
 
